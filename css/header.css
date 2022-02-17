@@ -29,12 +29,6 @@
     z-index: 100;
 }
 
-/* .header__container-main-top-row-nav {
-    display: none;
-    visibility: hidden;
-} */
-
-
 .header__container-main-content {
     display: flex;
     flex-direction: column;
@@ -94,4 +88,8 @@
     background-color: rgb(69, 193, 199);
     color: white;
     cursor: pointer;
+}
+
+.right-arrow {
+    padding-left: 10px;
 }
