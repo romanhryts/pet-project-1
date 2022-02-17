@@ -1,0 +1,97 @@
+.header__container-main {
+    background-image: url(../img/header-background-logo.png);
+    background-position: 30% 50%;
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+}
+
+.header__container-main-top-row-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.header__container-main-top-row-logo {
+    height: auto;
+    padding-top: 35px;
+    width: 182px;
+    z-index: 100;
+}
+
+.header__container-main-top-row-logo-burger {
+    color: var(--head-color);
+    font-size: 32px;
+    padding-top: 30px;
+    text-decoration: none;
+    z-index: 100;
+}
+
+/* .header__container-main-top-row-nav {
+    display: none;
+    visibility: hidden;
+} */
+
+
+.header__container-main-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    padding-top: 140px;
+}
+
+.header__container-main-content-text {
+    color: var(--main-color);
+    font-family: var(--main-font);
+    font-size: 19px;
+    font-weight: 400;
+    padding-top: 45px;
+}
+
+.header__container-main-content-buttons-container {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+.header__container-main-content-button {
+    border-radius: 25px;
+    font-family: var(--main-font);
+    font-size: 17px;
+    margin-top: 30px;
+}
+
+.header__container-main-content-button-about-us {
+    background-color: rgb(255, 230, 212);
+    border-width: 0;
+    color: var(--accent-color);
+    font-weight: bold;
+    padding: 15px 35px 15px 35px;
+    text-decoration: none;
+}
+
+.header__container-main-content-button-about-us:hover {
+    background-color: #bcf0ec;
+    color: rgb(69, 193, 199);
+    cursor: pointer;
+}
+
+.header__container-main-content-button-categories {
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgb(69, 193, 199);
+    border-style: solid;
+    border-width: 1px;
+    color: rgb(69, 193, 199);
+    font-weight: bold;
+    padding: 15px 35px 15px 35px;
+    text-decoration: none;
+}
+
+.header__container-main-content-button-categories:hover {
+    background-color: rgb(69, 193, 199);
+    color: white;
+    cursor: pointer;
+}

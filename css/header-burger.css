@@ -1,0 +1,41 @@
+.header__container-main-top-row-nav {
+    background-color: #ffefd5;
+    position: fixed;
+    top: 0; 
+    right: 0; 
+    bottom: 0;
+    left: 0; 
+}
+
+.header__container-main-top-row-nav-menu {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.header__container-main-top-row-nav-link {
+    color: var(--burger-links-color);
+    font-family: var(--main-font);
+    font-weight: 700;
+    padding-top: 25px;
+    text-decoration: none;
+}
+
+.header__container-main-top-row-nav-menu-addit-info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.header__burger-info {
+    color: var(--accent-color);
+    font-family: var(--main-font);
+    font-weight: 700;
+    margin-top: 0px;
+    text-decoration: none;
+}
+.email:hover, .phone:hover {
+    text-decoration: underline;
+}
